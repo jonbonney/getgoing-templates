@@ -6,6 +6,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
+    fmt.Fprintf(w, "Project: {{ProjectName}}\n")
     fmt.Fprintf(w, "Hello, World!")
 }
 
