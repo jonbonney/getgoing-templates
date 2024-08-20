@@ -1,0 +1,10 @@
+name: "Basic Web App"
+description: "A simple Go web application with a basic HTTP server."
+variables:
+  - name: "ProjectName"
+    description: "The name of your project."
+  - name: "ModuleName"
+    description: "The Go module name."
+files:
+  - "main.go"
+  - "go.mod"
